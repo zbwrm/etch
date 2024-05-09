@@ -1,6 +1,17 @@
 ## Log
 
+### next
+
+- refactor
+- gate current functionality behind `etch lists regen`
+
 ### 2024-05-08
+
+- successfully converted lists into markdown + wrote to list folder
+
+- successfully drawing lists from frontmatter
+- regenerate lists vs changing lists?
+  - regeneration is easier but should figure out how to just add links vs whole files
 
 - successfully getting raw filenames out -- ideal for crosslinking
   - it's a little janky though: there are some intermediate variables
@@ -60,7 +71,7 @@
 
 #### Commands
 
-- `etch lists update`
+- `etch lists regen`
   - searches `search_dir` for backlog items, using:
     - frontmatter, reading `list`, `name`, `category`
   - If `($NAME)[$FILEPATH]` isn't under the H2 `category` in the file named `$LIST.md` in `lists_dir`, add it
