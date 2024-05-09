@@ -16,7 +16,7 @@
 - successfully getting raw filenames out -- ideal for crosslinking
   - it's a little janky though: there are some intermediate variables
 
-- using (dirs)[5] for config folder management
+- using (dirs)[^5] for config folder management
   - attempt to solve error from `read_to_string`:
   ```
   Running `target/debug/etch`
@@ -35,14 +35,14 @@
 
 ### Interface
 
-- command line interface using (clap)[1]
+- command line interface using (clap)[^1]
 - full-word "natural-language" interface inspired by cargo
   - e.g. `etch lists update`
 - intended to be aliased in shell of choice
 
 ### Markdown compatible
 
-- generally compatible with Markdown per (commonmark)[2]
+- generally compatible with Markdown per (commonmark)[^2]
 
 ### Configuration
 
@@ -87,7 +87,7 @@
 
 ## Notes
 
-- built for personal use with (Helix)[3] and (Marksman)[4]
+- built for personal use with (Helix)[^3] and (Marksman)[^4]
 
 [1]: https://crates.io/crates/clap
 [2]: https://commonmark.org/
