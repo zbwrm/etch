@@ -5,4 +5,10 @@ edition = "2021"
 
 [dependencies]
 clap = "4.5.4"
+dirs = "5.0.1"
+log = "0.4.21"
 markdown = "1.0.0-alpha.17"
+serde = { version = "1.0.201", features = ["derive"] }
+serde_yaml = "0.9.34"
+simple_logger = "5.0.0"
+toml = "0.8.12"

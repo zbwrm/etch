@@ -2,6 +2,17 @@
 
 ### 2024-05-08
 
+- that worked but now it's not processing the toml correctly
+  - `lists_dir` and `search_dir` are under the `[lists]` header and should be treated accordingly
+
+- using (dirs)[5] for config folder management
+  - attempt to solve error from `read_to_string`:
+  ```
+  Running `target/debug/etch`
+  2024-05-08T23:17:38.692Z DEBUG [etch] attempting to read config from ~/.config/etch/config.toml...
+  Error: Os { code: 2, kind: NotFound, message: "No such file or directory" }
+  ```
+
 - generalized backlog manager to list manager
 
 - begun work on suite of tools for personal knowledge management
@@ -71,3 +82,4 @@
 [2]: https://commonmark.org/
 [3]: https://github.com/helix-editor/helix
 [4]: https://github.com/artempyanykh/marksman
+[5]: https://docs.rs/dirs/latest/dirs/index.html
