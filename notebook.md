@@ -2,8 +2,8 @@
 
 ### 2024-05-08
 
-- that worked but now it's not processing the toml correctly
-  - `lists_dir` and `search_dir` are under the `[lists]` header and should be treated accordingly
+- successfully getting raw filenames out -- ideal for crosslinking
+  - it's a little janky though: there are some intermediate variables
 
 - using (dirs)[5] for config folder management
   - attempt to solve error from `read_to_string`:
