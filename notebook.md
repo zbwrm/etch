@@ -89,8 +89,8 @@
 
 - built for personal use with Helix[^3] and Marksman[^4]
 
-[1]: https://crates.io/crates/clap
-[2]: https://commonmark.org/
-[3]: https://github.com/helix-editor/helix
-[4]: https://github.com/artempyanykh/marksman
-[5]: https://docs.rs/dirs/latest/dirs/index.html
+[^1]: https://crates.io/crates/clap
+[^2]: https://commonmark.org/
+[^3]: https://github.com/helix-editor/helix
+[^4]: https://github.com/artempyanykh/marksman
+[^5]: https://docs.rs/dirs/latest/dirs/index.html
